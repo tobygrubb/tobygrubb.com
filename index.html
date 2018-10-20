@@ -1,3 +1,197 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta http-equiv="Page-Enter" content="blendTrans(Duration=4.0)"/>
+<title>Toby Grubb</title>
+<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0"/>
+<link href='http://fonts.googleapis.com/css?family=Carme' rel='stylesheet' type='text/css'>
+<link rel="shortcut icon" href="images/favicon.ico">
+<link rel="stylesheet" href="css/fontello.css">
+
+
+
+
+
+<script type="text/javascript">
+	var bgImageArray = ["TobyGrubb_DCB75003.jpg", "TobyGrubb_BonAffair02b.jpg", "TobyGrubb_NikeNews04.jpg", "TobyGrubb_NikeSurf04.jpg", "TobyGrubb_ShaunWhite07.jpg", "TobyGrubb_ThisShoot.jpg", "TobyGrubb_BurtonCatalogs02b.jpg"],
+base = "http://www.tobygrubb.com/test/images/projects/",
+secs = 4;
+bgImageArray.forEach(function(img){
+    new Image().src = base + img;
+});
+
+function backgroundSequence() {
+	window.clearTimeout();
+	var k = 0;
+	for (i = 0; i < bgImageArray.length; i++) {
+		setTimeout(function(){
+			document.documentElement.style.background = "url(" + base + bgImageArray[k] + ") no-repeat center center fixed";
+			document.documentElement.style.backgroundSize ="cover";
+		if ((k + 1) === bgImageArray.length) { setTimeout(function() { backgroundSequence() }, (secs * 1000))} else { k++; }
+		}, (secs * 1000) * i)
+	}
+}
+backgroundSequence();
+
+function toggleCodes(on) {
+  var obj = document.getElementById('icons');
+    if (on) {
+      obj.className += ' codesOn';
+    } else {
+      obj.className = obj.className.replace(' codesOn', '');}
+}
+</script>
+
+
+
+
+
+<style type="text/css">
+body {
+	  background-color: black;
+}
+html {
+  margin: 0;
+  background-size: cover;
+  background: url("http://www.tobygrubb.com/test/images/projects/TobyGrubb_DCB75003.jpg") no-repeat center center fixed;
+  transition: 1s;
+}
+
+body,
+html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+
+body,td,th {
+	font-family: 'Calibre', sans-serif;
+  	font-size: 36px;
+  	font-weight: 200;
+  	letter-spacing: 0.08em;
+  	line-height: 2.4em;
+	color: rgba(255, 255, 255, .8);
+}
+
+a {
+	text-decoration: none;
+	color: #fff;
+    display: inline-block;
+    line-height: 1.2em;
+    font-family: 'Garamond Italic', serif;
+    font-weight:100;
+}
+
+.link:after {
+    content: '';
+    display: block;
+    height: 2px;
+    width: 0;
+    border-bottom: 2px solid transparent;
+    background: transparent;
+    transition: width .5s ease, background-color .5s ease;
+
+}
+
+.link:hover:after{;
+	cursor:pointer;
+	border-bottom: 2px solid #fff;
+    width: 100%;
+}
+
+.the-icons {
+  cursor:pointer;
+  font-size: 32px;
+  line-height: 24px;
+  	position: absolute;
+    z-index: 1000;
+}
+
+.the-icons:hover {;
+	cursor:pointer;
+	color: #000;
+
+}
+
+/* for 1920 or less */
+@media screen and (max-width:1920px) {
+	body {font-size: 28px;}
+}
+
+/* for 1500 or less */
+@media screen and (max-width:1500px) {
+	body {font-size: 24px;}
+}
+
+/* for 1240 or less */
+@media screen and (max-width:1240px) {
+	body {font-size: 22px;}
+  	font-weight: 300;
+}
+
+/* for 1080 or less */
+@media screen and (max-width:1080px) {
+	body {font-size: 18px;}
+		.the-icons {
+		font-size: 24px;
+		line-height: 24px;
+  	}
+}
+
+html {
+  font-size: 100%;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+
+.container {
+  margin-right: auto;
+  margin-left: 0;
+  padding: 0 0 0 10%;
+}
+
+.container:before,
+.container:after {
+  display: table;
+  content: "";
+  line-height: 0;
+}
+.container:after {
+  clear: both;
+}
+
+p {
+  margin: 0 0 10px;
+  padding: 5% 40% 0 10%;
+}
+
+/* for 1080 or less */
+@media screen and (max-width:800px) {
+  p{
+	  padding: 60px 8% 0 8%;
+	  margin: 0 0 10px;
+	}
+}
+
+
+
+</style>
+</head>
+
+
 <body>
-  <p>fuck you motherfucker</p>
+<div id="icons" class="container">
+    <table width="300px" border="0" cellspacing="0">
+    <td align="left"><a href="http://instagram.com/tobygrubb/"><div title="Code:0xe807" class="the-icons span0"><i class="icon-instagram"></i></a></td>
+    <td align="left"><a href="http://www.pinterest.com/tobygrubb/"><div title="Code:0xe802" class="the-icons span0"><i class="icon-pinterest-circled"></i></a></td>
+    <td align="left"><a href="http://www.linkedin.com/in/tobygrubb"><div title="Code:0xe806" class="the-icons span0"><i class="icon-linkedin-circled"></i></a></td>
+    <td align="left"><a href="http://www.vimeo.com/tobygrubb"><div title="Code:0xe804" class="the-icons span0"><i class="icon-vimeo-circled"></i></a></td>
+    <td align="left"><a href="http://open.spotify.com/user/1222411/playlist/2ZgOMn7JeHQcU6BgzJSuEl"><div title="Code:0xe803" class="the-icons span0"><i class="icon-spotify"></i></a></td></table></div>
+
+<div><p>With over 10 years of design experience and 50 digital launches under his belt, Toby Grubb served as a Creative Director at <a href="http://www.instrument.com" target="_blank" class="link">Instrument</a> before starting <a href="http://www.this.design" target="_blank" class="link">This.Studio</a> in Portland, Oregon. He provides insights and visual guidance to active global brands, including <a href="http://www.nike.com" target="_blank" class="link">Nike</a>, <a href="http://www.burton.com" target="_blank" class="link">Burton</a>, <a href="http://www.blackdiamondequipment.com" target="_blank" class="link">Black Diamond,</a> <a href="http://www.redbull.com" target="_blank" class="link">Red Bull</a> and <a href="http://www.specialized.com" target="_blank" class="link">Specialized</a>. His unique blend of energy and vision fuels collaboration. He is constantly making, <a href="http://www.motomucci.com/2013/04/daily-inspiration-honda-dcb750-by-toby.html" target="_blank" class="link">building</a> and occasionally, sleeping.<br><br>Toby is also an intrepid adventurer and photographer.  Whether mountain biking down volcanoes, racing motorcycles through the Italian autostrade, shark diving in the Pacific or backcountry snowboarding in New Zealand – he’s compelled to find and document the best life has to offer. This thirst for life is evident in his work.</p><br><br></div>
 </body>
+</html> 
