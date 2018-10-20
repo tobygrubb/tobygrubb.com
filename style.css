@@ -3,9 +3,6 @@ body {
 }
 html {
   margin: 0;
-  background-size: cover;
-  background: url("http://www.tobygrubb.com/test/images/projects/TobyGrubb_DCB75003.jpg") no-repeat center center fixed;
-  transition: 1s;
 }
 
 body,
@@ -18,7 +15,7 @@ html {
 }
 
 body,td,th {
-	font-family: 'Calibre', sans-serif;
+	font-family: 'Calibre-Light', sans-serif;
   	font-size: 36px;
   	font-weight: 200;
   	letter-spacing: 0.08em;
@@ -31,7 +28,7 @@ a {
 	color: #fff;
     display: inline-block;
     line-height: 1.2em;
-    font-family: 'Garamond Italic', serif;
+    font-family: 'TiemposText-Regular', serif;
     font-weight:100;
 }
 
@@ -89,36 +86,37 @@ a {
 		font-size: 24px;
 		line-height: 24px;
   	}
+  }
+
+  html {
+    font-size: 100%;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+  }
+
+  .container {
+    margin-right: auto;
+    margin-left: 0;
+    padding: 0 0 0 10%;
+  }
+
+  .container:before,
+  .container:after {
+    display: table;
+    content: "";
+    line-height: 0;
+  }
+  .container:after {
+    clear: both;
+  }
+
+  p {
+    margin: 0 0 10px;
+    padding: 5% 40% 0 10%;
+  }
 }
 
-html {
-  font-size: 100%;
-  -webkit-text-size-adjust: 100%;
-  -ms-text-size-adjust: 100%;
-}
-
-.container {
-  margin-right: auto;
-  margin-left: 0;
-  padding: 0 0 0 10%;
-}
-
-.container:before,
-.container:after {
-  display: table;
-  content: "";
-  line-height: 0;
-}
-.container:after {
-  clear: both;
-}
-
-p {
-  margin: 0 0 10px;
-  padding: 5% 40% 0 10%;
-}
-
-/* for 1080 or less */
+/* for 800 or less */
 @media screen and (max-width:800px) {
   p{
 	  padding: 60px 8% 0 8%;
