@@ -27,20 +27,10 @@ a {
 }
 
 p {
-	margin: 0;
 	padding: 10% 15%;
 }
 
-.wrapper {
-  display: inline-block;
-  height: 100vh;
-  width: 50vw;
-  padding: 0;
-  margin: 0;
-  background: #000;
-}
-
-.wrapper img {
+.split-screen__image {
   height: 100%;
   width: 100%;
   object-fit: cover;
@@ -77,18 +67,21 @@ p {
 .the-icons:hover {;
 	cursor:pointer;
 	color: #000;
-
 }
 
 .split-screen {
   display: flex;
   min-height: 100vh;
 }
+
+/* Google: BEM (Block, element, modifier) */
+.split-screen__left {
+	overflow: hidden;
+}
+
 .split-screen__left,
 .split-screen__right {
-  display: flex;
-  flex-direction: column;
-  flex: 1;
+	flex-basis: 50%;
 }
 .split-screen__right {
   background-color: #000;
@@ -101,45 +94,15 @@ p {
 		font-size: 24px;
 		line-height: 24px;
   	}
-  }
-
-  html {
-    font-size: 100%;
-    -webkit-text-size-adjust: 100%;
-    -ms-text-size-adjust: 100%;
-  }
-
-  .container {
-    margin-right: auto;
-    margin-left: 0;
-    padding: 0;
-  }
-
-  .container:before,
-  .container:after {
-    display: table;
-    content: "";
-    line-height: 0;
-  }
-  .container:after {
-    clear: both;
-  }
-
 }
+
 
 /* for 800 or less */
 @media screen and (max-width:800px) {
 	.split-screen {
-	  display: flex;
-	  min-height: 50vh;
-		min-width: 100vw
+		display: block;
 	}
-	.split-screen__left,
-	.split-screen__right {
-	  display: flex;
-	  flex-direction: row;
-	  justify-content: center;
-	  align-items: center;
-	  flex: 2;
+	.split-screen__left{
+		height:50vh;
 	}
 }
