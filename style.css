@@ -19,7 +19,8 @@ body {
 a {
 	text-decoration: none;
 	color: #fff;
-  font-family: 'TiemposText-LightItalic', serif;
+  font-family: 'Calibre-Regular', sans-serif;
+  /*'TiemposText-LightItalic', serif;*/
 	font-size: 1em;
   font-weight:100;
 	line-height: 1.2em;
@@ -37,9 +38,13 @@ p {
 }
 
 .small {
-		font-family: 'Calibre-LightItalic', sans-serif;
-  	font-size: .9em;
+		font-family: 'Calibre-Light', sans-serif;
+  	font-size: .8em;
 		line-height: 1.8em;
+    display: inline-block;
+}
+
+.arrow:hover {
 }
 
 .link:after {
@@ -54,19 +59,6 @@ p {
 .link:hover:after {
   width: 100%;
 	transition: width .5s ease;
-}
-
-.the-icons {
-  cursor:pointer;
-  font-size: 32px;
-  line-height: 24px;
-  	position: absolute;
-    z-index: 1000;
-}
-
-.the-icons:hover {;
-	cursor:pointer;
-	color: #000;
 }
 
 .split-screen {
@@ -84,16 +76,14 @@ p {
 	flex-basis: 50%;
 }
 .split-screen__right {
-  background-color: #000;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 /* for 1080 or less */
 @media screen and (max-width:1080px) {
 	body {font-size: 18px;}
-		.the-icons {
-		font-size: 24px;
-		line-height: 24px;
-  	}
 }
 
 
