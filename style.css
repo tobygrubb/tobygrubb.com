@@ -95,4 +95,11 @@ p {
 	.split-screen__left{
 		height:50vh;
 	}
+  p {
+  	padding: 5% 10%;
+  }
+  body {
+    font-size: 1em;
+  	line-height: 2.4em;
+  }
 }
