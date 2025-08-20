@@ -1,0 +1,16 @@
+.casestudy__video {
+  width: 66.66%;
+
+  &.-wrap{
+    @media (max-width: 767px) {
+      width: 80%;
+      max-width: 30em;
+    }
+  
+  }
+
+  
+  &.-fs {
+    width: 100%;
+  }
+}

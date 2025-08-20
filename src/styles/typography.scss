@@ -1,0 +1,31 @@
+@import 'breakpoints.scss';
+
+
+
+
+p a,
+span a,
+h1 a,
+h2 a,
+h4 a,
+h5 a,
+h6 a {
+  border-bottom: 1px solid rgba(0,0,0,0.1);
+  transition: border-bottom-color 1200ms cubic-bezier(0, 0, 0.2, 1);
+  display: inline;
+  text-decoration: none;
+  font-family: 'calibre-regular';
+  color: inherit;
+}
+
+a:hover {
+  border-bottom-color: #000;
+}
+
+p {
+  margin: 1.5rem 0;
+}
+
+p br {
+  // display: none;
+}

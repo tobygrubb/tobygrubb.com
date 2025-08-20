@@ -1,0 +1,27 @@
+@import '../../../../styles/breakpoints.scss';
+
+.about__text {
+  text-align: center;
+  padding: 5vh 4% !important;
+
+
+  @include breakpoint(xs) {
+    br {
+      display: none;
+    }
+  }
+
+  &.-keepBreak {
+    br {
+      display: block;
+    }
+  }
+
+  &.-full-height {
+    min-height: 100vh;
+  }
+
+  &.-small-caption {
+    margin-top: 25vh !important;
+  }
+}

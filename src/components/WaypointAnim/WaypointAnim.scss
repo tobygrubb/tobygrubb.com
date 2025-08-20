@@ -1,0 +1,13 @@
+@import '../../styles/variables.scss';
+
+.-waypointAnim {
+  &--fadeIn {
+    opacity: 0;
+    transform: translateZ(0);
+    transition: 1000ms opacity $ease-accel 300ms;
+
+    &.-enabled {
+      opacity: 1;
+    }
+  }
+}

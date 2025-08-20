@@ -1,0 +1,185 @@
+<mjml>
+  <mj-head>
+    <mj-attributes>
+      <mj-all font-family="Calibre, Arial, sans-serif" font-size="14px" />
+    </mj-attributes>
+    <mj-font name="Calibre"
+       href="https://prismic-io.s3.amazonaws.com/thisstaging/51b0a10c-17bd-4905-a9f9-e383bd8cfcd1_fonts.css" />
+      <mj-raw>
+       <style>
+       @media (max-width:479px) {
+        .header {
+          background-size: 120% auto !important;
+        }
+        .button {
+          padding-bottom: 10% !important;
+        }
+        .text1 {
+          padding-top: 18% !important;
+          padding-bottom: 20px !important;
+        }
+        .text2 {
+          padding: 30px 10% !important;
+        }
+        .text3 table td{
+          padding: 5px 0px 20px !important;
+          font-size: 13px !important;
+        }
+        .image1 {
+          padding: 0 10% 30px!important;
+        }
+        .image2 {
+          padding: 0 10%!important;
+        }
+        .social {
+          padding-top: 10px !important;
+          padding-left: 20px !important;
+          text-align: left !important;
+          width: 100px !important;
+        }
+       }
+       </style>
+    </mj-raw>
+   </mj-head>
+   
+  <mj-body background-color="#333">
+    <mj-wrapper css-class="header" padding-bottom="0" background-size="100%" background-repeat="no-repeat" background-color="#E3B338" background-url="https://images.prismic.io/thisstaging/f679977e-aa7a-4690-8a51-2d9fe7a956a3_This_NST_Header_HorizontalAction.jpg?auto=compress,format&w=600">
+      <mj-section background-repeat="repeat" padding="10px 0 10%" text-align="center">
+        <mj-group>
+          <mj-column width="40%">
+            <mj-image align="left" padding="0px 25px" href="https://this.design/" src="https://images.prismic.io/thisstaging/c88726be-7c72-482c-83ed-f36339875798_Logo_This.png?auto=compress,format&w=600" width="70px"></mj-image>
+          </mj-column>
+          <mj-column width="60%">
+            <mj-text font-size="10px" align="right">NEW WORK - EDITION No.8</mj-text>
+          </mj-column>
+        </mj-group>
+      </mj-section>
+      <mj-section background-repeat="repeat" padding-bottom="0px" padding-top="30px" padding="20px 0" text-align="center">
+        <mj-column>
+          <mj-button css-class="button" font-weight="100" border="1px solid #fefefe" font-size="30px" line-height="25px" border-radius="50px" background-color="transparent" inner-padding="10px 50px" padding-bottom="20%" href="https://www.naturalselectiontour.com/"> WATCH</mj-button>
+        </mj-column>
+      </mj-section>
+      <mj-section padding="0px">
+        <mj-column vertical-align="middle" width="55%">
+          <mj-text css-class="text1" font-size="14px" line-height="18px" padding="18% 10% 0px" font-weight="100">
+            Evolution is constant. What began in <a style='font-weight:400;color: black;' href="https://this.design/work/naturalselection">the snow</a>, was destined for the dirt and we are pleased to have contributed creative guidance to Natural Selection Tour’s <a style='font-weight:400;color: black;' href="https://www.naturalselectiontour.com">Proving Grounds</a>, a rider-owned and run event series in outdoor, adventure sports.  
+          </mj-text>
+        </mj-column>
+        <mj-column vertical-align="middle" width="45%">
+          <mj-image css-class="image1" padding="0 10% 0 0" fluid-on-mobile="true" src="https://images.prismic.io/thisstaging/72b61036-5ebc-4623-a620-651a8b0e4642_This_NST_VerticalAction.jpg?auto=compress,format&w=600" alt="" />
+        </mj-column>
+      </mj-section>
+      <mj-section padding="0px">
+        <mj-column width="55%" vertical-align="middle">
+          <mj-image css-class="image2" fluid-on-mobile="true" padding="0" src="https://images.prismic.io/thisstaging/8b3f0426-500c-4b41-a4c4-1eed2c8fd911_This_NST_GifPlaceholder.jpg?auto=compress,format&w=600" alt="" />
+        </mj-column>
+        <mj-column width="45%" vertical-align="middle">
+          <mj-text css-class="text2" font-size="12px" line-height="14px" font-weight="100">
+            Tune in to the first Freeride Mountain Bike event produced by our client, the Natural Selection Tour. The premiere will be available on <a href="https://www.naturalselectiontour.com" style="color:black;">naturalselectiontour.com </a> on September 23rd at 12pm PST and streaming on <a style="color:black;" href="https://www.espn.com/watch/">ESPN2</a> on the 24th.
+          </mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-wrapper>
+    <mj-wrapper background-color="black">
+      <mj-section padding="50px 0px">
+        <mj-column padding="50px 0 0">
+          <mj-text font-size="16px" font-weight="100" line-height="19px" align="center" color="#ffffff" padding="0 12%">
+            Oh, we’ve still got your attention?<br>Check out the featured rebranding and strategy casestudies for <a style="color:white;text-decoration:none;font-weight:400;" href="https://www.foxracing.com">Fox Racing</a> and <a style="color:white;text-decoration:none;font-weight:400;" href="https://www.rivian.com">Rivian Automotive</a>.
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section padding-bottom="100px">
+        <mj-group>
+          <mj-column padding="0" width="15%" padding-right="10px">
+          <mj-image padding="0" href="https://this.design/work/vsc" src="https://images.prismic.io/thisstaging/ba74681a-1466-4d30-87d5-94914c10c04c_This_Card_VSC.png?auto=compress,format&w=600" alt="" />
+        </mj-column>
+        <mj-column padding="0 15px" width="35%">
+          <mj-image padding="0" href="https://this.design/work/fox" src="https://images.prismic.io/thisstaging/2b6b072b-8a9d-4bd4-8bff-e444df0a6560_This_Card_Fox.png?auto=compress,format&w=600" alt="" />
+        </mj-column>
+        <mj-column padding="0 15px" width="35%">
+          <mj-image padding="0" href="https://this.design/work/riviansocial" src="https://images.prismic.io/thisstaging/28e72cbf-ea15-40a5-b07a-11b1370bf3cb_This_Card_Rivian.png?auto=compress,format&w=600" alt="" />
+        </mj-column>
+        <mj-column padding="0" width="15%" padding-left="10px">
+          <mj-image padding="0" href="https://this.design/work/tevaforever" src="https://images.prismic.io/thisstaging/95f5200f-4c6b-4b85-b30e-d7ac1b44a66d_This_Card_Teva.png?auto=compress,format&w=600" alt="" />
+        </mj-column>
+        </mj-group>
+      </mj-section>
+    </mj-wrapper>
+    <mj-wrapper background-color="#fff"  padding="40px 0">
+      <mj-section padding="30px">
+        <mj-column width="70%"  padding="0">
+          <mj-text align="left" font-size="34px" font-weight="100" padding="0">
+            Can you feel the niña in the air? Fall is on it’s way. Git’ya some of <span style="font-weight: 400; font-style: italic;">This</span>.
+          </mj-text>
+        </mj-column>
+        <mj-column width="30%"  padding="0">
+          <mj-text align="right"  padding="0" padding-top="10px">
+            <a style="color:black;text-decoration: none;" href="https://thisllc.myshopify.com/">Visit Shop  ➞</a>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section padding="30px 20px">
+        <mj-column padding="0 10px">
+          <mj-image padding="0" fluid-on-mobile="true" href="https://thisllc.myshopify.com/products/this-beanie" src="https://images.prismic.io/thisstaging/59cd8fa0-1900-4d7a-a701-fbb9f2113f85_This_Shop_Beanie.webp?auto=compress,format&w=600" alt="Beanie" />
+          <mj-table css-class="text3" font-size="10px" line-height="13px" width="100%" padding="2px 4px">
+            <tr>
+              <td>
+                <a style="color:black;text-decoration: none;" href="https://thisllc.myshopify.com/products/this-beanie">This Beanie</a>
+              </td>
+              <td align="right" width="40px">
+                <a style="color:black;text-decoration: none;" href="https://thisllc.myshopify.com/products/this-beanie">$28</a>
+              </td>
+            </tr>
+          </mj-table>
+        </mj-column>
+         <mj-column padding="0 10px">
+          <mj-image padding="0" fluid-on-mobile="true" href="https://thisllc.myshopify.com/products/this-hood-jacket" src="https://images.prismic.io/thisstaging/3fae6c9c-2135-4f73-a544-57c653693679_This_Shop_HoodJacket.webp?auto=compress,format&w=600" alt="Beanie" />
+          <mj-table css-class="text3" font-size="10px" line-height="13px" width="100%" padding="2px 4px">
+            <tr>
+              <td>
+                <a style="color:black;text-decoration: none;" href="https://thisllc.myshopify.com/products/this-hood-jacket">This Hood Jacket</a>
+              </td>
+              <td align="right" width="40px">
+                <a style="color:black;text-decoration: none;" href="https://thisllc.myshopify.com/products/this-hood-jacket">$65</a>
+              </td>
+            </tr>
+          </mj-table>
+        </mj-column>
+         <mj-column padding="0 10px">
+          <mj-image padding="0" fluid-on-mobile="true" href="https://thisllc.myshopify.com/products/copy-of-this-x-elsevvhere-homegrown-hoodie-12" src="https://images.prismic.io/thisstaging/9e345958-e0fc-43a3-920c-41a508d04aae_This_Shop_Hoodies_TieDye.webp?auto=compress,format&w=600" alt="Beanie" />
+          <mj-table css-class="text3" font-size="10px" line-height="13px" width="100%" padding="2px 4px">
+            <tr>
+              <td>
+                <a style="color:black;text-decoration: none;" href="#">This x Elsevvhere<br>Homegrown Hoodie #01</a>
+              </td>
+              <td align="right" width="40px" valign="top">
+                <a style="color:black;text-decoration: none;" href="#">$185</a>
+              </td>
+            </tr>
+          </mj-table>
+        </mj-column>
+      </mj-section>
+    </mj-wrapper>
+    <mj-wrapper background-color="#E3B338">
+      <mj-section>
+        <mj-column>
+          <mj-image align="left" width="100px" src="https://images.prismic.io/thisstaging/38535cc4-c6bf-47ce-b874-44e063cdeef4_Logo_This.png?auto=compress,format&w=600" alt="This.design Logo" />
+          <mj-text font-weight="100">
+            A thoughtful design studio.<br>Portland, Oregon
+          </mj-text>
+          <mj-text font-weight="100">
+            <a style="color:black;text-decoration: none;" href="mailto:look@this.design, subject:New Work No.8 Inquiry"><span style="text-decoration: underline; font-weight: 400;">Email</span> for inquiries ➞</a>
+          </mj-text>
+        </mj-column>
+        <mj-column width="35%">
+          <mj-social css-class="social" align="right" icon-size="25px" padding-top="100px">
+            <mj-social-element href="https://www.pinterest.com/tobygrubb/thisdesign/" target="_blank" src="https://images.prismic.io/thisstaging/c70959ae-0726-4fbd-bd7c-6ed2bb3cf683_Icon_Pinterest.png?auto=compress,format&w=600">
+            </mj-social-element>
+            <mj-social-element href="https://www.instagram.com/this/" target="_blank" src="https://images.prismic.io/thisstaging/7bf87f3c-2ed0-4adc-b814-45521f17ddb6_Icon_Instagram.png?auto=compress,format&w=600">
+            </mj-social-element>
+          </mj-social>
+        </mj-column>
+      </mj-section>
+    </mj-wrapper>
+  </mj-body>
+</mjml>

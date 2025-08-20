@@ -1,0 +1,73 @@
+@import '../../styles/variables.scss';
+
+$cursor-size: 100px;
+$text-circle-size: 60px;
+$spin-speed: 7000ms;
+
+@keyframes spin {
+  from {transform: rotate(0deg);}
+  to {transform: rotate(360deg);}
+}
+
+.cursor {
+  height: $cursor-size;
+  width: $cursor-size;
+  left: $cursor-size / -2;
+  top: $cursor-size / -2;
+  pointer-events: none;
+  position: fixed;
+  z-index: 20;
+  transition: transform $anim-fast $ease-decel;
+
+  &__dot {
+    background: $color-primary;
+    border-radius: 50%;
+    width: 100%;
+    height: 100%;
+    transform: scale(0);
+    transition: transform $anim-xx-fast $ease-accel;
+
+    &--enabled {
+      transform: scale(1);
+    }
+  }
+
+  &__text {
+    fill: $white;
+    width: $text-circle-size;
+    height: $text-circle-size;
+    animation: spin $spin-speed linear infinite;
+    position: relative;
+
+    svg {
+      opacity: 0;
+      transform: scale(.85);
+      transition: transform $anim-xx-fast $ease-accel, opacity $anim-xx-fast $ease-accel;
+    }
+
+    &--enabled {
+      svg {
+        opacity: 1;
+        transform: scale(1);
+      }
+    }
+  }
+
+  .cursor__text {
+    $circle-text-offset: ($cursor-size - $text-circle-size) / 2;
+    top: -$cursor-size + $circle-text-offset;
+    left: $circle-text-offset;
+  }
+}
+
+.cursorAnchor {
+  position: relative;
+
+  &__wrapper {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate3d(-50%, -50%, 0);
+
+  }
+}

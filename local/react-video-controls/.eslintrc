@@ -1,0 +1,30 @@
+{
+  "extends": ["airbnb", "prettier"],
+  "plugins": ["import", "react-hooks"],
+  "rules": {
+    "no-underscore-dangle": 0,
+    "react/jsx-filename-extension": 0,
+    "react/jsx-one-expression-per-line": 0,
+    "react/forbid-prop-types": 0,
+    "import/no-cycle": 0,
+    "react/prop-types": 0,
+    "react-hooks/rules-of-hooks": "error",
+    "react-hooks/exhaustive-deps": "warn",
+    "jsx-a11y/iframe-has-title": 0,
+    "jsx-a11y/no-static-element-interactions": 0,
+    "jsx-a11y/click-events-have-key-events": 0,
+    "react/no-danger": 0,
+    "react/no-array-index-key": 0
+  },
+  "env": {
+    "browser": true
+  },
+  "settings": {
+    "import/resolver": {
+      "node": {
+        "paths": ["/"],
+        "moduleDirectory": ["node_modules"]
+      }
+    }
+  }
+}

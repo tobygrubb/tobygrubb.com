@@ -1,0 +1,18 @@
+
+  .-grid {
+    display: flex;
+  }
+
+  .about-inner {
+    width: calc(100% - 36px);
+    background-color: black;
+  }
+
+  .about__image, .about__video {
+    &.-spaceAbove {
+      padding-top: 25vh !important;
+    }
+    &.-spaceBelow {
+      padding-bottom: 25vh !important;
+    }
+  }

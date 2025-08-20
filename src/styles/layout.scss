@@ -1,0 +1,74 @@
+@import 'breakpoints.scss';
+@import 'variables.scss';
+
+:root {
+  --windowHeight: 0;
+}
+
+.-grid {
+  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+
+  @include breakpoint(sm) {
+    display: flex;
+  };
+
+  @include breakpoint(xs) {
+    >* {
+      margin-top: $margin-1;
+    }
+
+  }
+
+  &.-left {
+    justify-content: flex-start;
+  }
+
+  &.-top {
+    align-items: flex-start;
+  }
+}
+
+.-padding {
+  @include breakpoint(sm) {
+    padding: 0 4%;
+  }
+}
+
+.-wrap-nav {
+  padding: 0 $nav-padding;
+
+  @include breakpoint(xs) {
+    padding: 0 $nav-padding-xs;
+  }
+}
+
+.-centered {
+  margin: 0 auto;
+}
+
+
+.-wrap {
+  margin: 0 auto;
+
+  @include breakpoint(xs) {
+    padding: 0 8% !important;
+
+  }
+  @include breakpoint(sm) {
+    max-width: 1500px;
+    width: 80%;
+  }
+
+  &--dub {
+    max-width: 960px;
+    width: 66.67%;
+  }
+
+  &--lg {
+    max-width: 1500px;
+    width: 88%;
+  }
+}

@@ -1,0 +1,27 @@
+.about__conclusion {
+  &__inner {
+    > div {
+      margin: 1em 0;
+    }
+  }
+
+  img {
+    margin: 1rem auto;
+    max-width: 3rem;
+    display: block;
+    opacity: 0.25;
+  }
+
+  &__scrollUp {
+    $skew: 0.7;
+    width: 10px;
+    height: 10px;
+    margin: 0px auto;
+    margin-top: 3em;
+    cursor: pointer;
+    box-sizing: content-box;
+    border-left: 1.5px solid white;
+    border-top: 1.5px solid white;
+    transform: matrix(1, $skew, -1, $skew, 0, 0);
+  }
+}
